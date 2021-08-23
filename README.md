@@ -1,15 +1,32 @@
 # AutoUpload-iOS
-**AutoUpload**是根据[CCSH的IOSAPP中Shell脚本](https://github.com/CCSH/iOSAPP)做了完善
 
-### 使用说明
+iOS自动化打包脚本，支持一键打包上传App Store
 
-* 修改setup.sh文件中配置项
+### 功能
 
-* 将AutoUpload文件夹复制到工程的根目录
+- 一键打包上传App Store
+- 支持参数预配置
+- 无需手动修改plist文件
 
-* 拖拽setup.sh文件到终端点击回车
 
-联系方式：[QQ](739758346)
+
+### 使用
+
+- 修改setup.sh文件中配置项
+
+- 将AutoUpload文件夹复制到工程的根目录
+
+- 拖拽setup.sh文件到终端点击回车
+
+### 参考
+
+- **AutoUpload**是在[CCSH的IOSAPP中Shell脚本](https://github.com/CCSH/iOSAPP)的基础上做了完善
+
+
+
+
+
+
 
 
 

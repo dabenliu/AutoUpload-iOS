@@ -277,6 +277,7 @@ echo "\n\033[32m****************\n开始导出ipa文件\n****************\033[0m
 #3、ipa输出地址
 #4、ipa打包plist文件地址
 xcodebuild -exportArchive \
+-allowProvisioningUpdates -allowProvisioningDeviceRegistration \
 -archivePath ${export_path_archive} \
 -configuration ${parameter_configuration} \
 -exportPath ${export_path_ipa}  \
